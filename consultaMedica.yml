@@ -1,1 +1,12 @@
-
+spring:
+ jpa:
+   database: postgresql
+   show-sql: false
+   hibernate:        
+    ddl-auto: update
+  
+datasource:
+  driver-class-name: org.postgresql.Driver
+  url: jdbc:postgresql://localhost/db_consulta_medica
+  username: postgres
+  password: 1234
